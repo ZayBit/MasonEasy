@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.header-container {
+    width: 100%;
+    height: 40vh;
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .title {
+        padding: 10px 25px;
+        background: #fff;
+        span {
+            &:first-child {
+                color: #22c1c3;
+            }
+            &:last-child {
+                color: #484ab1;
+            }
+        }
+    }
+}
+
+.filter-controls {
+    text-align: center;
+    margin: 30px auto;
+    li {
+        display: inline-block;
+        a {
+            display: inline-block;
+            outline: none;
+            border: none;
+            margin: 0px 15px;
+            font-size: 17px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 300ms ease;
+            color: #22c1c3;
+            font-weight: 500;
+            &.current-category {
+                color: #484ab1;
+            }
+
+            &:hover {
+                color: #484ab1;
+            }
+        }
+    }
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    .item {
+        width: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 30px;
+        .thumbnail {
+            img {
+                width: 300px;
+                object-fit: cover;
+                display: block;
+                margin: 0px auto;
+            }
+        }
+        .item-info {
+            padding: 10px;
+            a {
+                text-decoration: none;
+                color: #484ab1;
+            }
+            h3 {
+                a {
+                    margin: 5px 0px;
+                    display: inline-block;
+                }
+            }
+            .cat-links {
+                margin: 5px 0px;
+                ul {
+                    li {
+                        list-style: none;
+                        display: inline-block;
+                        a {
+                            font-size: 13px;
+                            display: block;
+                            padding: 3px 6px;
+                            color: #fff;
+                            background-color: #484ab1;
+                        }
+                    }
+                }
+            }
+            .item-description {
+                margin: 5px 0px;
+                font-size: 15px;
+                color: #424242;
+            }
+        }
+    }
+}
