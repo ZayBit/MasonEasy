@@ -1,6 +1,6 @@
 # masoEasy
 **Grid masonry con la opcion de filtrado elementos responsivo**
-
+[DEMO](https://zaybit.github.io/MasonEasy/)
 [![g1.gif](https://i.postimg.cc/sD5qGLY7/g1.gif)](https://postimg.cc/9rFJvJNQ)
 > **configuracion por defecto**
 
