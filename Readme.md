@@ -3,7 +3,6 @@
 
 [DEMO](https://zaybit.github.io/MasonEasy/)
 
-![g1.gif](https://i.postimg.cc/sD5qGLY7/g1.gif)
 
 > **configuracion por defecto**
 
