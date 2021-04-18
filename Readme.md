@@ -1,9 +1,7 @@
 # masonEasy
 **Grid masonry con la opcion de filtrado elementos responsivo**
 [DEMO](https://zaybit.github.io/MasonEasy/)
-
 > **configuracion por defecto**
-
 
 | tipo | propiedad | por defecto | definicion |
 |----|----|----|----|
