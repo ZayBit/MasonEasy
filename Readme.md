@@ -1,7 +1,7 @@
-# masoEasy
+# masonEasy
 **Grid masonry con la opcion de filtrado elementos responsivo**
+[DEMO](https://zaybit.github.io/MasonEasy/)
 
-[![g1.gif](https://i.postimg.cc/sD5qGLY7/g1.gif)](https://postimg.cc/9rFJvJNQ)
 > **configuracion por defecto**
 
 
@@ -15,7 +15,7 @@
 | **number** | transition | **300** |transición de los elementos al moverse|
 > **HTML**
 
-La estructura dentro del contenedor con la clase **"filter-controls"** no necesariamente tiene que ser una lista pero si contener el atributo **data-category**, a su vez los elementos del contenedor con el id **"masoEasy"** tienen que tener el mismo atributo **data-category**
+La estructura dentro del contenedor con la clase **"filter-controls"** no necesariamente tiene que ser una lista pero si contener el atributo **data-category**, a su vez los elementos del contenedor con el id **"masonEasy"** tienen que tener el mismo atributo **data-category**
 ~~~html
    <div class="filter-controls">
         <ul>
@@ -27,7 +27,7 @@ La estructura dentro del contenedor con la clase **"filter-controls"** no necesa
             </li>
         </ul>
 </div>
-<div id="masoEasy">
+<div id="masonEasy">
     <div class="item"  data-category="city">
 </div>
 ~~~

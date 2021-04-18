@@ -219,6 +219,6 @@ const masonEasy = (masonEasyId = 'masonEasy', config_mason) => {
     }
 }
 masonEasy('masonEasy',{
-    transition:1000
+    transition:300
 })
 
